@@ -1,0 +1,13 @@
+[
+  {
+    "id": 6,
+    "nama": "Amel",
+    "age": 20,
+    "jobDesk": [
+      {
+        "title": "backend",
+        "salary": 2000000
+      }
+    ]
+  }
+]
