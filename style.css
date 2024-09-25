@@ -1,0 +1,261 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  padding: 0;
+  margin: 0;
+  /* font-family: "Playfair+Display"; */
+}
+
+nav {
+  background-color: white;
+  padding-inline: 80px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  font-family: sans-serif;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav .name {
+  display: flex;
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+  text-transform: uppercase;
+}
+
+nav .nav-menu {
+  display: flex;
+  gap: 50px;
+  font-size: 18px;
+}
+
+nav .nav-menu a:hover {
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+}
+
+nav .nav-menu a {
+  color: black;
+}
+
+.background-color {
+  background-color: whitesmoke;
+  height: 60vh;
+}
+
+.background-color img {
+  height: 400px;
+  width: 400px;
+  border-radius: 100%;
+  margin-top: 150px;
+  position: absolute;
+  left: 35%;
+  border: 10px solid white;
+}
+
+.style-aboutme {
+  margin-top: 200px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.style-aboutme .text1 {
+  text-transform: uppercase;
+  font-size: 40px;
+}
+
+.style-aboutme .text2 {
+  color: #87a2ff;
+  text-transform: uppercase;
+  margin-top: -25px;
+}
+
+.style-aboutme p {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 448px;
+  font-size: 20px;
+}
+
+.style-aboutme a {
+  text-decoration: none;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.link-aboutme {
+  margin-top: 15px;
+  color: black;
+  font-weight: bold;
+}
+
+.link-aboutme:hover {
+  text-decoration: underline 3px;
+}
+
+.profil {
+  margin-left: 420px;
+  margin-top: 100px;
+  margin-bottom: -40px;
+  font-size: 50px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.img .style-img1 {
+  width: 400px;
+  height: 500px;
+  box-shadow: 5px 10px 18px #888888;
+  border-radius: 8px;
+  margin-top: 50px;
+  transition: transform 0.2s;
+}
+
+.img .style-img1:hover {
+  transform: scale(1.1);
+}
+
+.img .style-img2 {
+  width: 400px;
+  height: 500px;
+  box-shadow: 5px 10px 18px #888888;
+  border-radius: 8px;
+  margin-top: -50px;
+  transition: transform 0.2s;
+}
+
+.img .style-img2:hover {
+  transform: scale(1.1);
+}
+
+.background {
+  background-color: whitesmoke;
+  height: 65vh;
+}
+
+.read-more {
+  display: flex;
+  justify-content: center;
+  margin-left: 180px;
+  margin-top: 50px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.read-more:hover {
+  font-style: italic;
+}
+
+.hr {
+  margin-top: 80px;
+}
+
+.skill {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-bottom: 50px;
+}
+
+.my-skill {
+  display: flex;
+  justify-content: center;
+}
+
+.css {
+  max-height: 100vh;
+  max-width: 45vh;
+}
+
+.js {
+  max-height: 55vh;
+  max-width: 40vh;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+.experience h1 {
+  text-align: center;
+  margin-top: 80px;
+  text-transform: uppercase;
+}
+
+.my-experience {
+  display: flex;
+  padding-inline: 100px;
+  margin-top: 50px;
+}
+
+.experience .my-experience .internship {
+  font-size: 30px;
+}
+
+.experience .my-experience .internship .finance {
+  font-weight: bold;
+}
+
+.intern-finance {
+  margin-top: 100px;
+}
+
+.my-experience img {
+  max-height: 40vh;
+}
+
+.contact {
+  background-image: url(https://images.unsplash.com/photo-1480497490787-505ec076689f?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  /* background: rgba(8, 8, 8, 0.5); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  margin-top: 100px;
+}
+
+.contact h1 {
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 50px;
+}
+
+.contact .logo {
+  display: flex;
+  gap: 50px;
+  margin-top: 100px;
+  justify-content: center;
+}
+
+.contact img {
+  max-height: 30vh;
+  border-radius: 10px;
+  box-shadow: 7px 7px 10px black;
+  transition: transform 0.2s;
+}
+
+.contact img:hover {
+  transform: scale(1.1);
+}
